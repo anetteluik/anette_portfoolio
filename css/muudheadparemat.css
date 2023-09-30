@@ -4,3 +4,18 @@
     background-size: cover;
     background-position: center;
 }
+
+.KP {
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    gap: 20px;
+    width: 40vw;
+    height: 100%;
+}
+
+.KP-wrapper {
+    margin-left: -150px;
+    width: 50%;
+    z-index: 1;
+}
