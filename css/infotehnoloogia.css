@@ -1,0 +1,22 @@
+
+.c1.riist .inset-shadow-img {
+    background-image: url("../img/png/riist.png");
+}
+
+.c2 .inset-shadow-img {
+    background-image: url("../img/png/github.png");
+}
+
+.c3 {
+    justify-content: start;
+}
+
+.c3 .text-box-wrapper {
+    margin-left: -80px;
+}
+
+.c3 .inset-shadow-img {
+    background-image: url("../img/png/wix.png");
+    background-size: cover;
+    background-position: center;
+}

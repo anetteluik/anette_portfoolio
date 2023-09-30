@@ -1,0 +1,88 @@
+.pjs1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.pjs1 .inset-shadow-img {
+    width: 40%;
+    height: 600px;
+    background-image: url("../img/png/frillice2.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.pjs1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.pjs1 .inset-shadow-img {
+    width: 40%;
+    height: 500px;
+    margin-left: 90px;
+    overflow: hidden;
+    background-image: url("../img/png/iglu-loeng1.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.pjs1 .text-box-wrapper {
+    width: 50%;
+}
+
+.pjs1 .text-box {
+    background-color: var(--orange);
+}
+
+.pjs2 .inset-shadow-img {
+    width: 40%;
+    height: 500px;
+    margin-right: 40px;
+    overflow: hidden;
+    background-image: url("../img/png/iglu-loeng2.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.pjs2 .text-box-wrapper {
+    width: 55%;
+    z-index: 10;
+    margin: 0 0 0 100px;
+}
+
+.pjs2 .text-box {
+    padding: 50px;
+    border: 20px solid var(--orange);
+    background-color: var(--gray);
+}
+
+.pjs2 .text-box-wrapper2 {
+    width: 50%;
+    z-index: 10;
+    margin: 0 0 0 50px;
+}
+
+.pjs2 .text-box-wrapper2 .text-box-title {
+    font-size: 20px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.pjs2 .text-box-wrapper2 ul {
+    list-style: disc;
+    margin-left: 40px;
+}
+
+.pjs2 .text-box2 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 50px;
+    background-color: var(--gray);
+}
+
+.list-title {
+    font-weight: 600;
+}

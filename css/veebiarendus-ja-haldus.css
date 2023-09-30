@@ -1,0 +1,146 @@
+.vajh1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.vajh1 .inset-shadow-img {
+    width: 40%;
+    height: 600px;
+    background-image: url("../img/png/frillice2.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.vajh1 .text-box-wrapper {
+    width: 62%;
+    margin-right: -220px;
+    margin-top: 40px;
+    z-index: 10;
+}
+
+.vajh1 .text-box {
+    background-color: var(--orange);
+    padding-right: 100px;
+}
+
+.vajh2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start !important;
+}
+
+.vajh2 .inset-shadow-img {
+    width: 40%;
+    height: 440px;
+    margin-left: 90px;
+    margin-top: 40px;
+    overflow: hidden;
+    background-image: url("../img/png/iglu-loeng1.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.vajh2 .text-box-wrapper {
+    width: 50%;
+}
+
+.vajh2 .text-box {
+    background-color: #F3F3F3;
+}
+
+.vajh3 {
+    justify-content: center;
+}
+
+.vajh3 .inset-shadow-img {
+    width: 50%;
+    height: 500px;
+    margin-right: 40px;
+    overflow: hidden;
+    background-image: url("../img/png/iglu-loeng2.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.vajh3 .text-box-wrapper {
+    width: 40%;
+    z-index: 10;
+    margin: 0 -100px 0 100px;
+}
+
+.vajh3 .text-box {
+    padding: 50px;
+    border: 20px solid var(--orange);
+    background-color: var(--gray);
+}
+
+.vajh4 .inset-shadow-img {
+    height: 550px;
+    width: 55%;
+    background-image: url("../img/png/prototyping.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.vajh4 .text-box-wrapper {
+    width: 40%;
+    margin-left: -120px;
+    margin-top: 20px;
+}
+
+.vajh4 .text-box {
+    padding: 50px 60px 50px 50px;
+    border: none;
+    background-color: var(--gray);
+}
+
+.vajh5 {
+    justify-content: space-between;
+    align-items: start !important;
+}
+
+.vajh5 .inset-shadow-img {
+    width: 50%;
+    height: 700px;
+    background-image: url("../img/png/google-analytics.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.vajh5 .text-box-wrapper {
+    width: 48%;
+}
+
+.vajh6 .inset-shadow-img {
+    height: 700px;
+}
+
+.vajh5 .text-box {
+    padding: 50px 100px 50px 50px;
+    background-color: var(--orange);
+}
+
+.vajh5 .text-box-wrapper2 {
+    width: 48%;
+    margin-top: 40px;
+}
+
+.vajh5 .text-box2 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 50px 60px 50px 50px;
+    border: 20px solid var(--orange);
+    background-color: var(--gray);
+}
+
+.vajh5 .text-box2 ul {
+    list-style: disc;
+    margin-left: 40px;
+}
+
+.list-title {
+    font-weight: 600;
+}
