@@ -15,7 +15,7 @@
 }
 
 .gda1 .text-box-wrapper {
-    width: 55%;
+    width: 45%;
 }
 
 .gda1 .text-box {
@@ -43,8 +43,8 @@
 }
 
 .gda2 .text-box-wrapper {
-    width: 50%;
-    margin: 100px 0 0 -120px
+    width: 35%;
+    margin: 100px 0 0 36px
 }
 
 .gda2 .text-box {
@@ -69,6 +69,7 @@
 
 .gda3 .text-box-wrapper {
     width: 40%;
+    margin-left: 250px
 }
 
 .gda3 .text-box {
@@ -99,17 +100,17 @@
 }
 
 .gda5 .text-box-wrapper {
-    width: 40%;
+    width: 45%;
     margin-right: 60px;
 }
 
 .gda6 {
-    justify-content: end;
-    gap: 140px;
+    justify-content: center;
+    gap: 80px;
 }
 
 .gda6 .text-box-wrapper {
-    width: 45%;
+    width: 30%;
 }
 
 .gda6 .text-box-wrapper.bordered {

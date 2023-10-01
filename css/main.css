@@ -11,12 +11,12 @@
     box-sizing: border-box;
     font-family: Poppins, sans-serif;
     line-height: 146%;
-    font-size: 18px;
-    font-weight: 400;
+    font-size: clamp(16px, 1.5vw, 20px);
 }
 
 html {
     scroll-padding-top: 20vh;
+    overflow-x: hidden;
 }
 
 a {
@@ -31,12 +31,21 @@ a {
     transition: background-position 0.25s ease-in-out;
 }
 
+a.current {
+    background-color: var(--orange);
+}
+
 .list-menu a:hover {
     background-position: 0;
 }
 
 ul {
     list-style: none;
+}
+
+ul.dotted-list {
+    margin-left: 40px;
+    list-style: disc;
 }
 
 .nav-wrapper {
@@ -99,7 +108,7 @@ ul {
 .menus-section-wrapper .list-menus {
     display: flex;
     flex-direction: row;
-    gap: 50px;
+    gap: 100px;
 }
 
 .menus-section-wrapper .list-menu {
@@ -118,9 +127,14 @@ ul {
 }
 
 .menus-section-wrapper .list-menu .list-menu-title a {
-    font-size: 18px;
+    font-size: clamp(18px, 1.5vw, 20px);
     font-weight: 500;
     text-transform: uppercase;
+}
+
+.menus-section-wrapper .list-menu a {
+    font-size: clamp(16px, 1.5vw, 18px);
+    font-weight: 500;
 }
 
 .navbar-logo {
@@ -188,14 +202,15 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 200px 0 120px 0;
+    padding: 200px 100px 120px 100px;
     width: 100%;
+    max-width: 1600px;
 }
 
 .nav-sub-section {
     white-space: nowrap;
     cursor: pointer;
-    font-size: 20px;
+    font-size: clamp(16px, 1.5vw, 18px);
     font-weight: 300;
     background: linear-gradient(
             90deg,
@@ -213,24 +228,34 @@ a {
 }
 
 .content-title-navs-overlay {
-    margin-top: 30px;
+    margin-top: 230px;
+    padding: 0 30px 0 30px;
     position: absolute;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 96%;
+    width: 100%;
 }
 
 .relative {
-    width: 100%;
+    width: 100vw;
     display: flex;
     justify-content: center;
     position: relative;
+    top: 100px;
+}
+
+.sticky {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    position: sticky;
+    top: 0;
 }
 
 .content-section-main-title-wrapper .content-section-main-title {
     width: 100%;
-    font-size: 64px;
+    font-size: clamp(36px, 5vw, 50px);
     font-weight: 275;
     text-align: center;
     text-transform: uppercase;
@@ -244,7 +269,7 @@ a {
     display: flex;
     flex-direction: column;
     width: 100%;
-    gap: 90px;
+    gap: 130px;
     max-width: 1920px;
 }
 
@@ -402,7 +427,7 @@ a {
 }
 
 .content-pad .text-box-title {
-    font-size: 20px;
+    font-size: clamp(24px, 1.5vw, 28px);
     font-weight: 800;
     text-transform: uppercase;
 }
