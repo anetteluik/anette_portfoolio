@@ -1,0 +1,120 @@
+.vbk1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.vbk1 .inset-shadow-img {
+    width: 40%;
+    height: 600px;
+    background-image: url("../img/png/frillice2.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.vbk1 .text-box-wrapper {
+    width: 62%;
+    margin-right: -220px;
+    margin-top: 40px;
+    z-index: 10;
+}
+
+.vbk1 .text-box {
+    background-color: var(--orange);
+    padding-right: 100px;
+}
+
+.vbk2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.vbk2 .inset-shadow-img {
+    width: 40%;
+    height: 500px;
+    margin-left: 90px;
+    overflow: hidden;
+    background-image: url("../img/png/iglu-loeng1.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.vbk2 .text-box-wrapper {
+    width: 50%;
+}
+
+.vbk2 .text-box {
+    background-color: #F3F3F3;
+}
+
+.vbk3 {
+    justify-content: space-between;
+}
+
+.vbk3 .inset-shadow-img {
+    width: 40%;
+    height: 500px;
+    margin-right: 40px;
+    overflow: hidden;
+    background-image: url("../img/png/iglu-loeng2.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.vbk3 .text-box-wrapper {
+    width: 40%;
+    z-index: 10;
+    margin: 0 0 140px 100px;
+}
+
+.vbk3 .text-box {
+    padding: 50px;
+    border: 20px solid var(--orange);
+    background-color: var(--gray);
+}
+
+.vbk4 .inset-shadow-img {
+    height: 550px;
+    width: 55%;
+    background-image: url("../img/png/prototyping.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.vbk4 .text-box-wrapper {
+    width: 40%;
+    margin-left: -120px;
+    margin-top: 100px;
+}
+
+.vbk4 .text-box {
+    padding: 50px 60px 50px 50px;
+    border: none;
+    background-color: var(--gray);
+}
+
+.vbk5 {
+    justify-content: space-between;
+}
+
+.vbk5 .inset-shadow-img {
+    width: 50%;
+    height: 700px;
+    background-image: url("../img/png/google-analytics.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.vbk5 .text-box-wrapper {
+    width: 45%;
+}
+
+.vbk5 .text-box {
+    padding: 50px 100px 50px 50px;
+    background-color: var(--orange);
+}
+
+.list-title {
+    font-weight: 600;
+}

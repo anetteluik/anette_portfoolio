@@ -1,0 +1,122 @@
+.kka1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.kka1 .inset-shadow-img {
+    width: 40%;
+    height: 600px;
+    background-image: url("../img/png/frillice2.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.kka1 .text-box-wrapper {
+    width: 46%;
+    margin-left: 150px;
+}
+
+.kka1 .text-box {
+    background-color: var(--blue);
+    padding-right: 100px;
+}
+
+.kka2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.kka2 .inset-shadow-img {
+    width: 45%;
+    height: 500px;
+    overflow: hidden;
+    background-image: url("../img/png/iglu-loeng1.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.kka2 .text-box-wrapper {
+    width: 50%;
+}
+
+.kka2 .text-box {
+    background-color: #F3F3F3;
+}
+
+.kka3 {
+    justify-content: space-between;
+}
+
+.kka3 .inset-shadow-img {
+    width: 35%;
+    height: 500px;
+    margin-right: 40px;
+    overflow: hidden;
+    background-image: url("../img/png/iglu-loeng2.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.kka3 .text-box-wrapper {
+    width: 65%;
+    margin-right: -200px;
+    margin-top: 200px;
+    z-index: 10;
+}
+
+.kka3 .text-box {
+    padding: 50px;
+    border: 20px solid var(--blue);
+    background-color: var(--gray);
+}
+
+.kk4 {
+    justify-content: start;
+}
+
+.kka4 .inset-shadow-img {
+    height: 550px;
+    width: 55%;
+    background-image: url("../img/png/prototyping.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.kka4 .text-box-wrapper {
+    width: 40%;
+    margin-left: -120px;
+}
+
+.kka4 .text-box {
+    padding: 50px 60px 50px 50px;
+    border: none;
+    background-color: var(--blue);
+}
+
+.kka5 {
+    justify-content: space-between;
+}
+
+.kka5 .inset-shadow-img {
+    width: 45%;
+    height: 600px;
+    background-image: url("../img/png/google-analytics.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.kka5 .text-box-wrapper {
+    width: 40%;
+    margin: 0 0 300px 120px;
+}
+
+.kka5 .text-box {
+    padding: 50px 100px 50px 50px;
+    background-color: var(--gray);
+}
+
+.list-title {
+    font-weight: 600;
+}
