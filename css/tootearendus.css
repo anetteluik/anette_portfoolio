@@ -1,0 +1,43 @@
+.ta1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.ta1 .inset-shadow-img {
+    width: 90%;
+    aspect-ratio: 16/9;
+    overflow: hidden;
+    background-image: url("../img/svg/Tootearendus.svg");
+    background-size: cover;
+    background-position: center;
+}
+
+.ta1 .text-box-wrapper {
+    width: 55%;
+}
+
+.ta1 .text-box {
+    background-color: #F3F3F3;
+}
+
+
+#graafilise-disaini-alused .text-box ul {
+    margin-left: 40px;
+    list-style: disc;
+}
+
+.ta1 .text-box ul ul {
+    margin-left: 20px;
+    list-style: decimal !important;
+}
+
+#graafilise-disaini-alused .text-box-title {
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+#graafilise-disaini-alused .text-box-wrapper {
+    height: max-content;
+}
